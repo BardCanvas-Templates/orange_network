@@ -6,24 +6,26 @@
  * @author     Alejandro Caballero - lava.caballero@gmail.com
  */
 
-@import 'https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i|Prompt:400,400i,700,700i|Roboto+Condensed:400,400i,700,700i|Roboto:400,400i,700,700i|Ubuntu+Mono:400,400i,700,700i&subset=latin-ext';
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700|Raleway:400,400i,700,700i|Roboto+Condensed:400,400i,700,700i|Roboto:400,400i,700,700i|Ubuntu+Mono:400,400i,700,700i&subset=latin-ext');
 
-body     { font-family: 'Prompt', sans-serif; font-size: 12pt; background-color: #E5E5E5; }
+body     { font-family: 'Raleway', sans-serif; font-size: 12pt; background-color: rgba(0, 154, 194, 0.11); }
 th       { font-family: 'Roboto', sans-serif; font-size: 11pt; }
 td       { font-family: 'Roboto Condensed', 'Arial Narrow', sans-serif; font-size: 11pt; }
-#header  { font-family: Arial, Helvetica, sans-serif; font-size: 12pt; }
+#header  { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12pt; }
 #footer  { font-family: 'Roboto Condensed', 'Arial Narrow', sans-serif; font-size: 11pt; }
 #content { line-height: 1.2em; }
+
+a, .pseudo_link { text-decoration: none; }
 
 .dropdown_menu { font-family: Arial, Helvetica, sans-serif; }
 body.popup { background-color: transparent; }
 
 textarea, pre, .fixed_font, code { font-family: 'Ubuntu Mono', 'Lucida Console', 'Courier new', 'Courier', monospace; font-size: 10pt; }
-textarea.no_fw_font              { font-family: 'Prompt', sans-serif; font-size: 12pt; }
+textarea.no_fw_font              { font-family: 'Raleway', sans-serif; font-size: 12pt; }
 
-h1 { font-family: 'Lora', sans-serif; font-size: 14pt; line-height: 16pt; }
-h2 { font-family: 'Lora', sans-serif; font-size: 13pt; line-height: 15pt; }
-h3 { font-family: 'Lora', sans-serif; font-size: 12pt; line-height: 14pt; }
+h1 { font-family: 'Oswald', sans-serif; font-size: 14pt; line-height: 16pt; }
+h2 { font-family: 'Oswald', sans-serif; font-size: 13pt; line-height: 15pt; }
+h3 { font-family: 'Oswald', sans-serif; font-size: 12pt; line-height: 14pt; }
 
 h1 a.small { font-family: arial, helvetica, sans-serif; font-size: 12pt; font-weight: bold; }
 h1 a.small:before { content: '[' }
@@ -31,9 +33,9 @@ h1 a.small:after  { content: ']' }
 
 /* Forms */
 
-#post_form  textarea[name="title"]  { font-family: 'Lora', sans-serif;   font-size: 18pt; min-height: 34px; height: 34px; }
-#media_form textarea[name="title"]  { font-family: 'Lora', sans-serif;   font-size: 18pt; min-height: 34px; height: 34px; }
-#post_form textarea[name="excerpt"] { font-family: 'Prompt', sans-serif; font-size: 12pt; min-height: 30px; height: 30px; }
+#post_form  textarea[name="title"]  { font-family: 'Oswald', sans-serif;   font-size: 18pt; min-height: 34px; height: 34px; }
+#media_form textarea[name="title"]  { font-family: 'Oswald', sans-serif;   font-size: 18pt; min-height: 34px; height: 34px; }
+#post_form textarea[name="excerpt"] { font-family: 'Raleway', sans-serif; font-size: 12pt; min-height: 30px; height: 30px; }
 
 body.mce-content-body { background-color: white; margin: 0 10px; }
 
@@ -51,22 +53,6 @@ code          .emojione { height: 10pt; }
 h1 .emojione { height: 14pt; }
 h2 .emojione { height: 13pt; }
 h3 .emojione { height: 12pt; }
-
-/* Admin - modules manager */
-
-#modules_listing tr {
-    -webkit-box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.25);
-    -moz-box-shadow:    1px 1px 5px 0 rgba(0, 0, 0, 0.25);
-    box-shadow:         1px 1px 5px 0 rgba(0, 0, 0, 0.25);
-}
-
-/* Admin - settings manager */
-
-.settings_group {
-    -webkit-box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.25);
-    -moz-box-shadow:    1px 1px 5px 0 rgba(0, 0, 0, 0.25);
-    box-shadow:         1px 1px 5px 0 rgba(0, 0, 0, 0.25);
-}
 
 /* Thumbnail placeholders */
 
@@ -90,9 +76,9 @@ h3 .emojione { height: 12pt; }
 
 /* User profile styles */
 
-#user_profile_area    { background-color: white; box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.25); position: relative; }
-#user_profile_heading { background: #990d0d center center no-repeat; background-size: cover; 
-                        width: 100%; height: 300px; display: table; }
+#user_profile_heading { background: #FF0900 center center no-repeat; background-size: cover; 
+                        width: 100%; height: 300px; display: table;
+                        border: 1px solid #ffc969; border-radius: 5px; }
 
 #user_profile_area .details                { width: 100%; height: 300px; padding: 0 10px 10px 195px;
                                              display: table-cell; text-align: left; vertical-align: bottom;
@@ -109,9 +95,9 @@ h3 .emojione { height: 12pt; }
 
 #user_profile_tabs              { min-height: 45px; margin-bottom: 20px; margin-left: 190px; margin-top: 5px;
                                   padding-bottom: 5px; }
-#user_profile_tabs .tab         { display: inline-block; padding: 5px 8px; text-align: center; color: #990d0d;
+#user_profile_tabs .tab         { display: inline-block; padding: 5px 8px; text-align: center; color: #FF0900;
                                   border-radius: 3px; }
-#user_profile_tabs .tab.current { color: white; background-color: #990d0d; }
+#user_profile_tabs .tab.current { color: white; background-color: #FF0900; }
 
 #user_info_sections { -moz-column-gap:   10px; -webkit-column-gap:   5px; column-gap:   5px; }
 #user_info_sections { -moz-column-count:    2; -webkit-column-count:   2; column-count:   2; }

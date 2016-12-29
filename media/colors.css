@@ -1,0 +1,91 @@
+
+/* Core colors */
+
+h1 { color: #FF6600; }
+h2 { color: #FF6600; }
+h3 { color: #FF6600; }
+
+a:link,            .pseudo_link                            { color: #009AC2; }
+a:active, a:hover, .pseudo_link:active, .pseudo_link:hover { color: #00c3ee; }
+a:visited,         .pseudo_link:visited                    { color: #005b7f; }
+
+h1 a, h1 .pseudo_link, h2 a, h2 .pseudo_link, h3 a, h3 .pseudo_link { color: #FF6600; }
+
+#header { color: black; background-color: #ff9449; }
+#footer { color: white; background-color: #df6000; }
+
+#header { border-bottom: 2px solid #ffc969; }
+
+#header .main_menu_item               { color: black; }
+#header .main_menu_item:link          { color: black; }
+#header .main_menu_item:hover         { color: white;   background-color: #bf5200; }
+#header .main_menu_item.current       { color: #FF6600; background-color: white;   }
+#header .main_menu_item.current:hover { color: #FF6600; background-color: black;   }
+
+#header .main_menu_item.highlighted               { color: greenyellow; }
+#header .main_menu_item.highlighted:link          { color: greenyellow; }
+#header .main_menu_item.highlighted:hover         { color: black; background-color: greenyellow;    }
+#header .main_menu_item.highlighted.current       { color: black; background-color: yellowgreen;    }
+#header .main_menu_item.highlighted.current:hover { color: black; background-color: lime; }
+
+#header .main_menu_item.alerted               { color: maroon; background-color: yellow; }
+#header .main_menu_item.alerted:link          { color: maroon; }
+#header .main_menu_item.alerted:hover         { color: red;    }
+#header .main_menu_item.alerted.current       { color: red;    }
+#header .main_menu_item.alerted.current:hover { color: red;    }
+
+#header .main_menu_item.alerted       .fa.fa-border { border-color: maroon; }
+#header .main_menu_item.alerted:hover .fa.fa-border { border-color: red;    }
+
+#header .main_menu_item.submenu_visible              { color: #009AC2; background-color: black; }
+#header .main_menu_item.submenu_visible:hover        { color: #009AC2; background-color: black; }
+
+#main_menu_trigger.open         { color: #009AC2; background-color: black; }
+
+/* Dropdown menu */
+
+.dropdown_menu                               { color: white; background-color: #009AC2; }
+.dropdown_menu .main_menu_item               { color: white; }
+.dropdown_menu .main_menu_item:link          { color: white; }
+.dropdown_menu .main_menu_item:hover         { color: white;   background-color: black;   }
+.dropdown_menu .main_menu_item.current       { color: #009AC2; background-color: #f6f8f9; }
+.dropdown_menu .main_menu_item.current:hover { color: white;   background-color: #005d7f; }
+
+.dropdown_menu .main_menu_item.highlighted               { color: black; background-color: greenyellow; }
+.dropdown_menu .main_menu_item.highlighted:link          { color: black; background-color: greenyellow; }
+.dropdown_menu .main_menu_item.highlighted:hover         { color: green; background-color: greenyellow;    }
+.dropdown_menu .main_menu_item.highlighted.current       { color: black; background-color: yellowgreen;    }
+.dropdown_menu .main_menu_item.highlighted.current:hover { color: green; background-color: lime; }
+
+section > h1 { color: white;   background-color: #FF5D33; border-color: #bf3e21; }
+section > h2 { color: #F2FFAD; background-color: #FF5D33; border-color: #9f3d26; }
+section > h3 { color: #FF5D33; background-color: #F2FFAD; border-color: #9f3d26; }
+
+section > h1 a, section > h1 .pseudo_link, section > h1 .pseudo_link:hover { color: white; }
+section > h2 a, section > h2 .pseudo_link, section > h2 .pseudo_link:hover { color: white; }
+section > h3 a, section > h3 .pseudo_link, section > h3 .pseudo_link:hover { color: white; }
+
+.info_handler.highlighted { color: white; background-color: #009AC2; }
+
+/* Core Admin colors */
+
+#admin_menu { color: white; background-color: #009AC2; }
+
+#admin_menu .admin_bar_title { color: white; }
+
+#admin_menu .item       { color: white; }
+#admin_menu .item:hover { color: white; background-color: #00607f; }
+
+#admin_menu .item.current       { color: #009AC2; background-color: white; }
+#admin_menu .item.current:hover { color: white; background-color: #00607f; }
+
+#admin_menu_trigger:hover { color: white;   background-color: #00607f; }
+#admin_menu_trigger.open  { color: #009AC2; background-color: white;   }
+
+body.admin h1 { color: white;   background-color: #FF6600; border-color: #9f3d26; }
+body.admin h2 { color: white;   background-color: #FF6600; border-color: #9f3d26; }
+body.admin h3 { color: #FF6600; background-color: #fff6ed; border-color: #9f3d26; }
+
+body.admin h1 a, body.admin h1 .pseudo_link { color: white;   }
+body.admin h2 a, body.admin h2 .pseudo_link { color: white;   }
+body.admin h3 a, body.admin h3 .pseudo_link { color: #009AC2; }

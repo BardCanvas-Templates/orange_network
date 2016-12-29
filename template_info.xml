@@ -1,15 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <template>
     
-    <name>Base template</name>
+    <name>Orange Network</name>
     
-    <version>1.6.10</version>
+    <version>1.0</version>
     
     <description>
-        Distributed with BardCanvas.
+        Kinda based on Twitter
     </description>
     
-    <group>BardCanvas</group>
+    <notes><![CDATA[
+        Base color: FF6600 ~ Orange
+        Extra:      bf5200 ~ Darker orange
+        Base left : FF0900 ~ Red
+        Base right: FF9600 ~ Lighter orange
+        Complement: 009AC2 ~ Blueish cyan
+        
+        Fonts (all sans):
+        • Body:          Raleway
+        • Table cells:   Roboto, Roboto Condensed
+        • Fixed width:   Ubuntu Mono
+        • Headings:      Oswald
+    ]]></notes>
+    
+    <group>Yokika</group>
     
     <tags>responsive, facebook clone, wordpress clone, mobile, desktop, multpile columns</tags>
     
