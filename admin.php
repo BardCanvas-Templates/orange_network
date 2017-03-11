@@ -50,7 +50,7 @@ header("Content-Type: text/html; charset=utf-8"); ?>
     <!-- This template -->
     <link rel="stylesheet" type="text/css" href="<?= $template->url ?>/media/styles~v<?=$config->scripts_version?>.css">
     <link rel="stylesheet" type="text/css" href="<?= $template->url ?>/media/post_styles~v<?=$config->scripts_version?>.css">
-    <link rel="stylesheet" type="text/css" href="<?= $template->url ?>/media/colors~v<?=$config->scripts_version?>.css">
+    <link rel="stylesheet" type="text/css" href="<?= $template->url ?>/media/colors~v1.1.css">
     
     <? if( $settings->get("engine.hide_left_sidebar_on_admin_pages") != "true" && $template->count_left_sidebar_groups() > 0 ): ?>
         <!-- Left sidebar -->

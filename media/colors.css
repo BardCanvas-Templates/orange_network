@@ -22,8 +22,8 @@ h1 a, h1 .pseudo_link, h2 a, h2 .pseudo_link, h3 a, h3 .pseudo_link { color: #FF
 #header .main_menu_item.current       { color: #FF6600; background-color: white;   }
 #header .main_menu_item.current:hover { color: #FF6600; background-color: black;   }
 
-#header .main_menu_item.highlighted               { color: greenyellow; }
-#header .main_menu_item.highlighted:link          { color: greenyellow; }
+#header .main_menu_item.highlighted               { color: green; }
+#header .main_menu_item.highlighted:link          { color: green; }
 #header .main_menu_item.highlighted:hover         { color: black; background-color: greenyellow;    }
 #header .main_menu_item.highlighted.current       { color: black; background-color: yellowgreen;    }
 #header .main_menu_item.highlighted.current:hover { color: black; background-color: lime; }
