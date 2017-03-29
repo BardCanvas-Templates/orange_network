@@ -2,8 +2,8 @@
 <template>
     
     <name>Orange Network</name>
-    <version>1.1.12</version>
-    <group>templates</group>
+    <version>1.2.0</version>
+    <group>templates_base</group>
     
     <description>
         Kinda based on Twitter
