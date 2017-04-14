@@ -1,6 +1,10 @@
 
 # Orange Network Template Change Log
 
+## [1.2.4] - 2017-04-14
+
+- Added extension points
+
 ## [1.2.3] - 2017-04-10
 
 - Added buttons to the full tinymce editor toolbar
