@@ -10,18 +10,18 @@
 #left_sidebar .group .title     { display: block; margin: 0 0 0 2px; padding: 2px 6px; color: #009AC2;
                                   font-weight: bold; font-size: 8pt; line-height: normal; text-transform: uppercase; }
 
-#left_sidebar .item             { display: block; margin: 0 0 0 10px; padding: 4px 6px; }
-#left_sidebar .item.selected    { background-color: rgba(255, 255, 255, .5); }
-#left_sidebar .item.highlighted { background-color: rgba(255, 255, 0, 0.25); }
+#left_sidebar .item             { display: block; margin: 0 4px 0 10px; padding: 4px 6px; }
+#left_sidebar .item.selected    { background-color: #ffe3aa; }
+#left_sidebar .item.highlighted { background-color: #f8ffb0; }
 #left_sidebar .item.important   { color: #FF0900; }
 #left_sidebar .item.critical    { background-color: #ffc5bf; border: 1px solid #df0900; }
 
 #left_sidebar a                                    ,
 #left_sidebar .pseudo_link                         { text-decoration: none; color: #7f3f00; }
 #left_sidebar a.item:hover                         ,
-#left_sidebar .pseudo_link:hover                   { background-color: white; }
+#left_sidebar .pseudo_link:hover                   { background-color: #ffbc8a; }
 #left_sidebar a.item.highlighted:hover             ,
-#left_sidebar  .item.pseudo_link.highlighted:hover { background-color: rgba(255, 255, 0, 0.51); }
+#left_sidebar  .item.pseudo_link.highlighted:hover { background-color: yellow; }
 #left_sidebar a.item.critical:hover                ,
 #left_sidebar  .item.pseudo_link.critical:hover    { color: white; background-color: #df0900; }
 
