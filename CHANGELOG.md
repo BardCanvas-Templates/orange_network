@@ -1,7 +1,11 @@
 
 # Orange Network Template Change Log
 
-## [1.2.6] - 2017-04-17
+## [1.2.7] - 2017-04-16
+
+- Small CSS fixes.
+
+## [1.2.6] - 2017-04-15
 
 - Added extension point on comments for single posts.
 
