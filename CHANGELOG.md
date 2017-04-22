@@ -1,6 +1,10 @@
 
 # Orange Network Template Change Log
 
+## [1.2.10] - 2017-04-22
+
+- Added extension point.
+
 ## [1.2.9] - 2017-04-21
 
 - Added support for one-click on-screen notifications dismissal.
