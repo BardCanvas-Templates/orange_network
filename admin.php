@@ -53,7 +53,7 @@ header("Content-Type: text/html; charset=utf-8"); ?>
     <link rel="stylesheet" type="text/css" href="<?= $template->url ?>/media/post_styles~v<?= $css_version ?>.css">
     <link rel="stylesheet" type="text/css" href="<?= $template->url ?>/media/colors~v<?= $css_version ?>.css">
     
-    <? if( $template->count_left_sidebar_groups() > 0 ): ?>
+    <? if( $settings->get("engine.hide_left_sidebar_on_admin_pages") != "true" && $template->count_left_sidebar_groups() > 0 ): ?>
         <!-- Left sidebar -->
         <link rel="stylesheet" type="text/css" href="<?= $template->url ?>/media/left_sidebar_addon~v<?= $css_version ?>.css">
         <script type="text/javascript"          src="<?= $template->url ?>/media/left_sidebar_addon~v<?= $css_version ?>.js"></script>
