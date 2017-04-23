@@ -1,6 +1,10 @@
 
 # Orange Network Template Change Log
 
+## [1.3.1] - 2017-04-23
+
+- Fixed issue in admin template.
+
 ## [1.3.0] - 2017-04-23
 
 - Fixed navigation issues on single post comments.
