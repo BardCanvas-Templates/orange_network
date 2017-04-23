@@ -1,6 +1,12 @@
 
 # Orange Network Template Change Log
 
+## [1.3.0] - 2017-04-23
+
+- Fixed navigation issues on single post comments.
+- Added fields to user profile info section.
+- Refactored header metas.
+
 ## [1.2.10] - 2017-04-22
 
 - Added extension point.
