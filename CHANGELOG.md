@@ -1,6 +1,10 @@
 
 # Orange Network Template Change Log
 
+## [1.3.2] - 2017-04-28
+
+- Added actions to single post comments
+
 ## [1.3.1] - 2017-04-23
 
 - Fixed issue in admin template.
