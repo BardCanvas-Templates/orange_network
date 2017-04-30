@@ -1,6 +1,11 @@
 
 # Orange Network Template Change Log
 
+## [1.4.0] - 2017-04-29
+
+- Switched jQuery-UI theme to "UI Lightness"
+- Removed local common header and included the one from the engine.
+
 ## [1.3.2] - 2017-04-28
 
 - Added actions to single post comments
