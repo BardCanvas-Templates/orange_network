@@ -40,7 +40,7 @@ header("Content-Type: text/html; charset=utf-8"); ?>
     <? include ROOTPATH . "/includes/common_header.inc" ?>
     
     <!-- This template -->
-    <? $css_version = "2.0"; ?>
+    <? $css_version = "2.0.1-1"; ?>
     <link rel="stylesheet" type="text/css" href="<?= $template->url ?>/media/styles~v<?= $css_version ?>.css">
     <link rel="stylesheet" type="text/css" href="<?= $template->url ?>/media/post_styles~v<?= $css_version ?>.css">
     <link rel="stylesheet" type="text/css" href="<?= $template->url ?>/media/colors~v<?= $css_version ?>.css">
