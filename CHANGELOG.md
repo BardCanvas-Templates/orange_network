@@ -1,6 +1,12 @@
 
 # Orange Network Template Change Log
 
+## [1.4.1] - 2017-05-13
+
+- Removed deprecated div.
+- Added user slug as body tag data for easing CSS manipulation.
+- Added missing single post colors for different states.
+
 ## [1.4.0] - 2017-04-29
 
 - Switched jQuery-UI theme to "UI Lightness"
