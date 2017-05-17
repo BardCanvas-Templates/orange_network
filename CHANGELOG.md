@@ -1,6 +1,10 @@
 
 # Orange Network Template Change Log
 
+## [1.4.2] - 2017-05-16
+
+- Added extension point after post index loop end.
+
 ## [1.4.1] - 2017-05-13
 
 - Removed deprecated div.
