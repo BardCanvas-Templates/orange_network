@@ -1,6 +1,10 @@
 
 # Orange Network Template Change Log
 
+## [1.4.3] - 2017-05-17
+
+- Added support for contact module option to avoid anonymous guests to send email to registered users.
+
 ## [1.4.2] - 2017-05-16
 
 - Added extension point after post index loop end.
