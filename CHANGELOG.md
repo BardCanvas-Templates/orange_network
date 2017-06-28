@@ -1,6 +1,10 @@
 
 # Orange Network Template Change Log
 
+## [1.6.2] - 2017-06-27
+
+- Added complementary info and screenshot.
+
 ## [1.6.1] - 2017-06-08
 
 - Bumped TinyMCE loading version.
