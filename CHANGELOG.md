@@ -1,6 +1,10 @@
 
 # Orange Network Template Change Log
 
+## [1.6.6] - 2017-08-03
+
+- Changed video rendering method to support "play" icon overlays.
+
 ## [1.6.5] - 2017-07-26
 
 - Fixed left sidebar relocation issue.
